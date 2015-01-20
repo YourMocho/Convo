@@ -45,7 +45,7 @@ public class Convo {
 		for(int i = 0; i < convo.size(); i++) {
 			//for(int i = 4; i < 5; i++) {
 			System.out.println(convo.get(i).getName() + ": "+ convo.get(i).size() + " messages containing " + convo.get(i).countWords() + " words, with an average of " + convo.get(i).countWords()/(float)convo.get(i).size() + " words per message");
-			//System.out.println("Most used words: \n" + convo.get(i).mostFrequWords());
+			System.out.println("Most used words: \n" + convo.get(i).mostFrequWords());
 		}
 		System.out.println("Total: "+ transcript.size() + " messages containing " + transcript.countWords() + " words, with an average of " + transcript.countWords()/(float)transcript.size() + " words per message");
 	}
